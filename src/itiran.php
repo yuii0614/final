@@ -2,6 +2,10 @@
 <?php require 'menu.php'; ?>
 <?php require 'db-connect.php'; ?>
 
+<h1>好きな曲一覧</h1>
+<a href="index.php">メニューに戻る</a>
+<hr>
+
 <?php
     $pdo=new PDO($connect, USER, PASS );
 
