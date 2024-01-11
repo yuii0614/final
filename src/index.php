@@ -6,7 +6,7 @@
     onclick="location.href='itiran.php'" value="一覧">
 
 <input type="button" 
-    onclick="location.href='toroku.php'" value="登録">
+    onclick="location.href='toroku-input.php'" value="登録">
 
 <input type="button" 
     onclick="location.href='kosin.php'" value="更新">
