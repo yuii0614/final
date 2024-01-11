@@ -31,6 +31,6 @@
     echo '<br>';
 
     echo '<form action="toroku-output.php">';
-    echo '<input type="submit">登録';
+    echo '<input type="submit" value="登録">';
     echo '</form>';
 ?>
