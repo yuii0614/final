@@ -1,5 +1,4 @@
 <?php require 'header.php'; ?>
-<?php require 'menu.php'; ?>
 <?php require 'db-connect.php'; ?>
 
 <h1>好きな曲一覧</h1>
