@@ -5,7 +5,7 @@
 <?php
     $pdo=new PDO($connect, USER, PASS );
 
-    foreach( $sql as $row ){
+    foreach( $pdo->query('select * from Music') as $row ){
         echo '<p>';
         echo $row['music_id'], ' : ';
         echo $row['music_name'], ' : ';
