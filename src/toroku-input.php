@@ -34,3 +34,5 @@
     echo '<input type="submit" value="登録">';
     echo '</form>';
 ?>
+
+<?php require 'footer.php'; ?>
