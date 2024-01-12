@@ -3,15 +3,13 @@
 
 <?php
     $pdo=new PDO($connect, USER, PASS );
-
-    if( empty($sql->fetchALL()) ){
-        $sql=$pdo->prepare('insert into customer values(null,?,?,?)');
-        $sql->execute([
-            $_POST['m_name'], $_POST['a_name'], $_POST['genre']
-        ]);
-        echo '楽曲を登録しました。';
-    }else{
-        echo '';
+    $sql=$pdo->prepare('insert into customer values(music_name, artist_name, genre_id) values (?, ?, ?)');
+    if (empty($_POST['mname'])) {
+        echo '曲名を入力してください';
+    }else if ($sql->excute([ $_POST['mname'], $_POST['aname'], $_POST['genre_id'] ]) ){
+        echo '楽曲を追加しました';
+    }else {
+        echo '追加に失敗しました';
     }
 ?>
 
