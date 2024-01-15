@@ -9,7 +9,7 @@
     onclick="location.href='toroku-input.php'" value="登録">
 
 <input type="button" 
-    onclick="location.href='kosin.php'" value="更新">
+    onclick="location.href='kosin-input.php'" value="更新">
 
 <input type="button" 
     onclick="location.href='sakujo.php'" value="削除">
