@@ -22,6 +22,20 @@
     }else{
         echo '楽曲の更新に失敗しました・・・';
     }
-
-
 ?>
+
+<table>
+    <tr><th>楽曲ID</th><th>曲名</th><th>歌手名</th><th>ジャンル</th></tr>
+
+    <?php
+        foreach ($pdo->query('select * from Music') as $row) {
+            echo '<tr>';
+            echo '<td>', $row['music_id'], '</td>';
+            echo '<td>', $row['music_name'], '</td>';
+            echo '<td>', $row['artist_name'], '</td>';
+            echo '<td>', $row['genre_id'], '</td>';
+            echo '</tr>';
+            echo "\n";
+        }
+    ?>
+</table>

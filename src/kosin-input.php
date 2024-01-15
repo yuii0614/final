@@ -30,7 +30,8 @@
         echo '<input type="text" name="genre_id" value="', $row['genre_id'], '">';
         echo '</div>';
 
-        echo '<div class="td2"><input type="submit" value="更新"></div>';
+        echo '<div class="td2">';
+        echo '<input type="submit" value="更新"></div>';
         echo '</form>';
         echo "\n";
     }
