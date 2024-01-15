@@ -5,10 +5,10 @@
 <hr>
 
 <form action="toroku-output.php">
-    曲名　　　:  <input type="text" name="mname"><br>
-    歌手名　　:  <input type="text" name="aname"><br>
+    曲名　　　:  <input type="text" name="music_name"><br>
+    歌手名　　:  <input type="text" name="artist_name"><br>
     ジャンル　:  
-    <select name="genre">
+    <select name="genre_id">
         <option value="" disabled selected>ジャンルを選択してください</option>
         <option value="1">POP</option>
         <option value="2">J-POP</option>
