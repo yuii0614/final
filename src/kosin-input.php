@@ -23,10 +23,10 @@
         echo '<div class="td1">';
         echo '<input type="text" name="music_name" value="', $row['music_name'], '">';
         echo '</div>';
-        echo '<div class="td2">';
+        echo '<div class="td1">';
         echo '<input type="text" name="artist_name" value="', $row['artist_name'], '">';
         echo '</div>';
-        echo '<div class="td3">';
+        echo '<div class="td1">';
         echo '<input type="text" name="genre_id" value="', $row['genre_id'], '">';
         echo '</div>';
 
