@@ -8,7 +8,7 @@
     曲名　　　:  <input type="text" name="mname"><br>
     歌手名　　:  <input type="text" name="aname"><br>
     ジャンル　:  
-    <select name="genre_id" id="genre_id" required>
+    <select name="genre_id">
         <option value="" disabled selected>ジャンルを選択してください</option>
         <option value="1">POP</option>
         <option value="2">J-POP</option>
@@ -19,7 +19,7 @@
         <option value="7">Singer/Songwriter</option>
         <option value="8">Rock</option>
         <option value="9">Hip-Hop</option>
-    </select>';
+    </select><br>
     <input type="submit" value="登録">
 </form>
 
