@@ -8,7 +8,7 @@
     曲名　　　:  <input type="text" name="mname"><br>
     歌手名　　:  <input type="text" name="aname"><br>
     ジャンル　:  
-    <select name="genre_id">
+    <select name="genre">
         <option value="" disabled selected>ジャンルを選択してください</option>
         <option value="1">POP</option>
         <option value="2">J-POP</option>
