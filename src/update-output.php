@@ -8,7 +8,7 @@
 
 <?php
     $pdo=new PDO($connect, USER, PASS);
-    $sql=$pdo->prepare('update Music set music_name=?, artist_name=?, genre_id=? where id=?');
+    $sql=$pdo->prepare('update Music set music_name=?, artist_name=?, genre_id=? where music_id=?');
 
     if (empty($_POST['music_name'])) {
         echo '曲名を入力してください。';
@@ -24,7 +24,7 @@
     }
 ?>
 
-<hr>
+<br>
 <table>
 <tr><th>楽曲ID</th><th>曲名</th><th>歌手名</th><th>ジャンル</th></tr>
 

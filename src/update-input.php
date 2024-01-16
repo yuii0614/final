@@ -15,7 +15,7 @@
     $pdo=new PDO($connect, USER, PASS);
 
 	foreach ($pdo->query('select * from Music') as $row) {
-		echo '<form action="kosin-output.php" method="post">';
+		echo '<form action="update-output.php" method="post">';
 		echo '<input type="hidden" name="music_id" value="', $row['music_id'], '">';
 		echo '<div class="td0">', $row['music_id'], '</div> ';
 		echo '<div class="td1">';

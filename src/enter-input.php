@@ -4,7 +4,7 @@
 <a href="index.php">メニューに戻る</a>
 <hr>
 
-<form action="toroku-output.php" method="post">
+<form action="enter-output.php" method="post">
     曲名　　　:  <input type="text" name="music_name"><br>
     歌手名　　:  <input type="text" name="artist_name"><br>
     ジャンル　:  
