@@ -11,9 +11,9 @@
     foreach( $pdo->query('select * from Music inner join Genre 
              where Music.genre_id = Genre.genre_id') as $row ){
         echo '<p>';
-        echo $row['music_id'], ' : ';
-        echo $row['music_name'], ' : ';
-        echo $row['artist_name'], ' : ';
+        echo $row['music_id'], '   :   ';
+        echo $row['music_name'], '   :   ';
+        echo $row['artist_name'], '   :   ';
         echo $row['genre_name'];
         echo '</p>';
     }

@@ -19,6 +19,8 @@
         <option value="7">Singer/Songwriter</option>
         <option value="8">Rock</option>
         <option value="9">Hip-Hop</option>
+        <option value="10">Alternative</option>
+        <option value="11">Dance</option>
     </select><br>
     <input type="submit" value="登録">
 </form>
