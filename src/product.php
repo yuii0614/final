@@ -8,7 +8,7 @@
 <?php
     $pdo=new PDO($connect, USER, PASS );
 
-    foreach( $pdo->query('select * from Music inner join Genre where Music.genre_id = Genre.genre_id') as $row ){
+    foreach( $pdo->query('select * from Music inner join Genre where Music.genre_id = Genre.genre_id') as $row ){0
         echo '<p>';
         echo $row['music_id'], ' : ';
         echo $row['music_name'], ' : ';
